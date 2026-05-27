@@ -1,1 +1,19 @@
-
+{
+  "name": "lighting-launcher",
+  "version": "1.0.0",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "vite",
+    "start": "electron .",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "minecraft-launcher-core": "^3.17.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "electron": "^27.0.0",
+    "vite": "^5.0.0"
+  }
+}
